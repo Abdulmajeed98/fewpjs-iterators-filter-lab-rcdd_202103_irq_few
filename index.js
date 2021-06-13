@@ -1,8 +1,6 @@
 // Code your solution here
 function findMatching (list, name) {
-  return list.filter(function (driverName) {
-    return driverName.toLowerCase() === name.toLowerCase();
-  });
+  return list.filter((driverName) => driverName.toLowerCase() === name.toLowerCase());
 }
 
 function fuzzyMatch (list, partialName) {
